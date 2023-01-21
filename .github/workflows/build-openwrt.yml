@@ -20,7 +20,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: git@github.com:openwrt/openwrt.git
+  REPO_URL: https://github.com/openwrt/openwrt.git
   REPO_BRANCH: v21.02.1
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: configs/orange-pi-0.config.seed
